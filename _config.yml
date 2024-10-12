@@ -1,0 +1,61 @@
+# Site settings
+title: Yutong Huang
+baseurl: ""
+url: "https://yutonghuang.github.io"
+google_analytics: # Tracking ID, e.g. "UA-000000-01"
+
+# Author
+author:
+  name: Yutong Huang
+  desc: yutonghuang [at] ucsd [dot] edu
+  email:
+  selfie: assets/img/profile.jpg
+
+# social
+social:
+  email: false
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  github: hythzz
+  google_plus:
+  instagram:
+  keybase:
+  linkedin: https://www.linkedin.com/in/yutong-huang
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:
+  steam:
+  tumblr:
+  gitlab:
+  twitter:
+  vimeo:
+  wordpress:
+  youtube:
+  default_txt: "Follow On"
+
+# Build settings
+markdown: kramdown
+
+# Assets
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Permalinks
+permalink: /:year-:month-:day/:title
+paginate_path: "/portfolio/page:num/"
+paginate: 2
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gem"
+  - "LICENSE"
+  - "READE.md"
